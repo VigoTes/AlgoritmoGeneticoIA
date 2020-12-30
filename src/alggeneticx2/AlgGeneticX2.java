@@ -38,6 +38,8 @@ public class AlgGeneticX2 {
         
             x.seleccionYReproduccion();
 
+            
+            
 
              System.out.println("\nIMPRESION POBLACION N°"+c+" LUEGO DE SELECCION Y REPRODUCCION \n" + x.toString());
 
@@ -52,7 +54,7 @@ public class AlgGeneticX2 {
             c++;
         }while(c<100);
           
-        System.out.println("\n\n\n\n\n ");
+        System.out.println("\n\n\n\n ");
         System.out.println("********* POBLACION CON MENOR DESVIACION ESTANDAR ****************");
         System.out.println("\nIMPRESION POBLACION N°"+ posicion +" \n" + x.toString());  
         
